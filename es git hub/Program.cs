@@ -21,6 +21,17 @@ namespace es_git_hub
             prodotto = num1 * num2;
             Console.WriteLine($"Il prodotto è {prodotto}");
 
+            int resto = 0;
+            resto = prodotto % 2;
+            if(resto==0)
+            {
+                Console.WriteLine("Il prodotto è pari");
+            }
+            else
+            {
+                Console.WriteLine("Il numero è dispari");
+            }
+
         }
     }
 }
