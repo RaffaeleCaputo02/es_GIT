@@ -12,6 +12,15 @@ namespace es_git_hub
         {
             Console.WriteLine("Buongiorno");
             Console.ReadLine();
+            int num1, num2;
+            int prodotto=0;
+            Console.WriteLine("Inserisci il primo numero");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Inserisci il secondo numero");
+            num2 = Convert.ToInt32(Console.ReadLine());
+            prodotto = num1 * num2;
+            Console.WriteLine($"Il prodotto è {prodotto}");
+
         }
     }
 }
